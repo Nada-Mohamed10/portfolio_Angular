@@ -1,0 +1,31 @@
+.workContainer{
+    margin-top: 100px;
+}
+.workTitle{
+    margin-bottom: 15px;
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-family: Quicksand, Arial, sans-serif;
+}
+.workHeading{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    position: relative;
+    margin: 0 0 30px;
+    color: #000;
+    font-family: Playfair Display, Georgia, serif;
+}
+.nav-tabs .nav-link{
+    color: #2c98f0;
+    border: 0;
+    font-weight: 500;
+    padding: 0;
+    padding-right: 1rem;
+}
