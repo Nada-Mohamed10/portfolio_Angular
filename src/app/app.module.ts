@@ -10,6 +10,8 @@ import { ExperienceComponent } from './Components/experience/experience.componen
 import { WorkComponent } from './Components/work/work.component';
 import { SidebarComponent } from './Components/sidebar/sidebar.component';
 import { NotFoundComponent } from './Components/not-found/not-found.component';
+import { EducationComponent } from './Components/about/nestedComponent/education/education.component';
+import { CollegeComponent } from './Components/about/nestedComponent/college/college.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { NotFoundComponent } from './Components/not-found/not-found.component';
     ExperienceComponent,
     WorkComponent,
     SidebarComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    EducationComponent,
+    CollegeComponent
   ],
   imports: [
     BrowserModule,
